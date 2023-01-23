@@ -34,8 +34,8 @@
         "Delete"
       ],
       "AuthenticationOptions": {
-      /*  "AuthenticationProviderKey": "TestKey",*/
-        "AllowedScopes": ["dsfds"]
+        "AuthenticationProviderKey": "HalkBank",
+        "AllowedScopes": ["sadd"]
       }
     }
   ],

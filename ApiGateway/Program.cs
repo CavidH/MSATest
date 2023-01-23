@@ -42,10 +42,14 @@ var authenticationProviderKey = "TestKey";
 // };
 
 builder.Services.AddAuthentication()
-    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+    .AddJwtBearer("HalkBank", options =>
     {
+        //Token'ı yayınlayan Auth Server adresi bildiriliyor. Yani yetkiyi dağıtan mekanizmanın adresi bildirilerek ilgili API ile ilişkilendiriliyor.
         options.Authority = "https://localhost:1000";
-     });
+        //Auth Server uygulamasındaki 'Garanti' isimli resource ile bu API ilişkilendiriliyor.
+        options.Audience = "HalkBank";
+     
+    });
 
 
 builder.Services.AddControllers();
@@ -69,6 +73,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseOcelot().Wait();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
