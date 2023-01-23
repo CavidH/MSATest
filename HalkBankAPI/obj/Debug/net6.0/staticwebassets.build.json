@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qVrn5Kyb5QfFcgs5kY4azsvNQyuAyJ9INiAR/Tz+Lbs=",
+  "Source": "HalkBankAPI",
+  "BasePath": "_content/HalkBankAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

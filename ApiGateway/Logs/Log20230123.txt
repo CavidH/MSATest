@@ -1,0 +1,90 @@
+2023-01-23 12:52:59.724 -08:00 [INF] Now listening on: https://localhost:5000
+2023-01-23 12:53:23.851 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/Auth/connect/token application/x-www-form-urlencoded 74
+2023-01-23 12:54:42.271 -08:00 [INF] Now listening on: https://localhost:5000
+2023-01-23 12:54:42.340 -08:00 [INF] Now listening on: http://localhost:5037
+2023-01-23 12:54:42.345 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-23 12:54:42.346 -08:00 [INF] Hosting environment: Development
+2023-01-23 12:54:42.347 -08:00 [INF] Content root path: C:\Users\javid\source\repos\MSATest\ApiGateway\
+2023-01-23 12:54:57.223 -08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/Auth/connect/token application/x-www-form-urlencoded 74
+2023-01-23 12:54:57.433 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+2023-01-23 12:54:57.446 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000002, previousRequestId: no previous request id, message: No authentication needed for /Auth/connect/token
+2023-01-23 12:54:57.454 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000002, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+2023-01-23 12:54:58.205 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:1000/connect/token
+2023-01-23 12:54:58.260 -08:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/Auth/connect/token application/x-www-form-urlencoded 74 - 200 850 application/json;+charset=utf-8 1041.8094ms
+2023-01-23 12:55:37.669 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 12:55:37.680 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 12:55:37.681 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000003, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 12:55:37.682 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000003, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 12:55:38.759 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 12:55:38.762 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 1092.6008ms
+2023-01-23 12:55:50.867 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 12:55:50.870 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000004, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 12:55:50.872 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000004, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 12:55:50.874 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000004, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 12:55:50.897 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000004, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 12:55:50.899 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 31.9841ms
+2023-01-23 12:55:52.070 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 12:55:52.071 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000005, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 12:55:52.074 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000005, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 12:55:52.076 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000005, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 12:55:52.084 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000005, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 12:55:52.087 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 16.8911ms
+2023-01-23 12:55:52.666 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 12:55:52.668 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000006, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 12:55:52.670 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000006, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 12:55:52.673 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000006, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 12:55:52.677 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000006, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 12:55:52.680 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 14.0803ms
+2023-01-23 12:55:53.277 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 12:55:53.279 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000007, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 12:55:53.280 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000007, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 12:55:53.283 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000007, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 12:55:53.292 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000007, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 12:55:53.294 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 16.9140ms
+2023-01-23 12:55:54.310 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 12:55:54.311 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000008, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 12:55:54.313 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000008, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 12:55:54.316 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000008, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 12:55:54.321 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000008, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 12:55:54.324 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 14.0293ms
+2023-01-23 12:55:58.549 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 12:55:58.550 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000009, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 12:55:58.553 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000009, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 12:55:58.555 -08:00 [INF] requestId: 0HMNTGGAU59UH:00000009, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 12:55:58.582 -08:00 [WRN] requestId: 0HMNTGGAU59UH:00000009, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 12:55:58.584 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 401 0 - 35.5655ms
+2023-01-23 12:56:02.058 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 12:56:02.060 -08:00 [INF] requestId: 0HMNTGGAU59UH:0000000A, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 12:56:02.062 -08:00 [INF] requestId: 0HMNTGGAU59UH:0000000A, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 12:56:02.064 -08:00 [INF] requestId: 0HMNTGGAU59UH:0000000A, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 12:56:02.069 -08:00 [INF] requestId: 0HMNTGGAU59UH:0000000A, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 12:56:02.071 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 12.9640ms
+2023-01-23 13:06:58.344 -08:00 [INF] Now listening on: https://localhost:5000
+2023-01-23 13:06:58.386 -08:00 [INF] Now listening on: http://localhost:5037
+2023-01-23 13:06:58.390 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-23 13:06:58.391 -08:00 [INF] Hosting environment: Development
+2023-01-23 13:06:58.392 -08:00 [INF] Content root path: C:\Users\javid\source\repos\MSATest\ApiGateway\
+2023-01-23 13:07:06.764 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 13:07:06.876 -08:00 [INF] requestId: 0HMNTGN4C0LR8:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 13:07:06.880 -08:00 [INF] requestId: 0HMNTGN4C0LR8:00000002, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 13:07:06.883 -08:00 [INF] requestId: 0HMNTGN4C0LR8:00000002, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 13:07:07.663 -08:00 [INF] requestId: 0HMNTGN4C0LR8:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 13:07:07.688 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 927.9339ms
+2023-01-23 13:11:33.511 -08:00 [INF] User profile is available. Using 'C:\Users\javid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-23 13:11:34.006 -08:00 [INF] Now listening on: https://localhost:5000
+2023-01-23 13:11:34.008 -08:00 [INF] Now listening on: http://localhost:5037
+2023-01-23 13:11:34.013 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-23 13:11:34.014 -08:00 [INF] Hosting environment: Development
+2023-01-23 13:11:34.016 -08:00 [INF] Content root path: C:\Users\javid\source\repos\MSATest\ApiGateway\
+2023-01-23 13:11:36.691 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 13:11:36.935 -08:00 [INF] requestId: 0HMNTGPKPR1TP:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 13:11:36.952 -08:00 [INF] requestId: 0HMNTGPKPR1TP:00000002, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 13:11:36.963 -08:00 [INF] requestId: 0HMNTGPKPR1TP:00000002, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 13:11:38.486 -08:00 [INF] requestId: 0HMNTGPKPR1TP:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 13:11:38.545 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 1855.8960ms
+2023-01-23 13:11:40.169 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - -
+2023-01-23 13:11:40.172 -08:00 [INF] requestId: 0HMNTGPKPR1TP:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/{everything}
+2023-01-23 13:11:40.173 -08:00 [INF] requestId: 0HMNTGPKPR1TP:00000003, previousRequestId: no previous request id, message: No authentication needed for /HalkB/HalkData
+2023-01-23 13:11:40.174 -08:00 [INF] requestId: 0HMNTGPKPR1TP:00000003, previousRequestId: no previous request id, message: /api/{everything} route does not require user to be authorized
+2023-01-23 13:11:40.182 -08:00 [INF] requestId: 0HMNTGPKPR1TP:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:3000/api/HalkData
+2023-01-23 13:11:40.184 -08:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/HalkB/HalkData - - - 200 30 application/json;+charset=utf-8 15.2720ms

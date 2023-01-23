@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HalkBankAPI.props" />
+</Project>
